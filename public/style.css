@@ -117,7 +117,11 @@ header .btn{
   display: inline-block;
   font-size: 0.8em;
 }
-.recipes{
+header .user{
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+.clubs {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
@@ -125,7 +129,7 @@ header .btn{
   margin: 80PX AUTO;
   max-width: 1200px;
 }
-.recipe{
+.club {
   display: inline-block;
   border-radius: 20px;
   background: white;
@@ -133,9 +137,14 @@ header .btn{
   text-align: center;
   padding: 0 20px 30px 20px
 }
-.recipe img{
+.club img{
   width: 100px;
+  border: none;
   margin: -30px auto 20px;
+}
+.club img:hover{
+  transform: scale(1.2);
+  transition: width .5s ease;
 }
 footer{
   text-align: center;
